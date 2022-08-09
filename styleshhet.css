@@ -1,0 +1,206 @@
+ body {
+                background-image: url(img/tile.jpg);
+                margin: 20px auto;
+                box-sizing: border-box;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 2em;
+                font-family: 'Knewave', cursive, sans-serif;
+            }
+            h6 {
+                margin-top: inherit;
+            }
+
+            form {
+                text-align: center;
+              
+
+
+            }
+           
+
+            #textarea {
+
+                background-image: url(img/formbg.jpg);
+                margin: 5px auto;
+                height: 219px;
+                width: 50%;
+
+            }
+
+            #myTask {
+                background-color: unset;
+                padding-left: 70px;
+                padding-top: 24px;
+                width: 100%;
+                line-height: 200%;
+                height: 79.5%;
+                border: 0 ;
+            }
+           textarea:focus{
+                outline: 0;
+}
+
+      
+
+            .text {
+                border: 0 ;
+                background-color: unset;
+                height: 160px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                margin-top:25px;
+                padding-right: 0px;
+                font-family: 'Kaushan Script','gadi', cursive, sans-serif;
+                width: 72%;
+
+            }
+            textarea.text:hover{
+                overflow-y: auto;
+                
+            }
+
+            .date, .time {
+                background-color: unset;
+                text-align: left;
+                font-family: 'Kaushan Script' ,cursive,  sans-serif;
+                border: 0;
+                padding-left: 0;
+                margin-left: 0;
+                align-content: flex-start;
+    
+            }
+
+             .box {
+                box-sizing: border-box;
+                height: 250px;
+                width: 200px;
+                background-image: url(img/notebg.png);
+                margin-right: auto ;
+               color: dimgray;
+
+
+
+            }
+
+            div#savedTask {
+                margin-left:initial ;
+             
+            }
+
+            .removeTask {
+                display: none;
+                float: right;
+                margin-top: 15px;
+                margin-right: 15px;
+               
+
+            }
+            .removeTask:hover {
+                color: red;
+            }
+             .bi-save-fill:hover{
+                color: mediumblue;
+            }
+            .bi-pen:hover{
+                color: midnightblue;
+            }
+            .bi-pen{
+                display: none;
+                float: right;
+                 margin-right: -25px;
+                 margin-top: 50px;
+            }
+          .bi-save-fill{
+              display: none;
+                float: right;
+                 margin-right: -25px;
+                 margin-top: 85px;
+          }
+            .box:hover  .removeTask,.box:hover .bi-pen,.box:hover .bi-save-fill {
+                    display: block;
+                    cursor: pointer;
+            }
+
+            .fadeIn {
+                animation: fadeIn 3s;
+                -webkit-animation: fadeIn 3s;
+                -moz-animation: fadeIn 3s;
+                -o-animation: fadeIn 3s;
+                -ms-animation: fadeIn 3s;
+            }
+
+            @keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            @-moz-keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            @-webkit-keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            @-o-keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            @-ms-keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+            @font-face{
+                font-family: 'gadi';
+                font-weight: 400; /*(regular)*/
+                font-style: normal;
+                src: url(GadiAlmogAlefAlefAlef/web/gadi-almog-regular-aaa.woff2) format('woff2'),
+                    url(GadiAlmogAlefAlefAlef/web/gadi-almog-regular-aaa.woff) format('woff');
+            }
+        
+        @font-face{
+            font-family: 'gadi-bold';
+            font-weight: 700; /*(bold)*/
+            font-style: normal;
+            src: url(GadiAlmogAlefAlefAlef/web/gadi-almog-regular-aaa.woff2) format('woff2'),
+                url(GadiAlmogAlefAlefAlef/web/gadi-almog-regular-aaa.woff) format('woff');
+        }
+        @font-face{
+            font-family: 'gadi-black';
+            font-weight: 900; /*(black)*/
+            font-style: normal;
+            src: url(GadiAlmogAlefAlefAlef/web/gadi-almog-regular-aaa.woff2) format('woff2'),
+                url(GadiAlmogAlefAlefAlef/web/gadi-almog-regular-aaa.woff) format('woff');
+        }
+           
